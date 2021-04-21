@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Add items</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
   <div class="header">
@@ -45,7 +45,13 @@
 
    <div class="input-group">
   	  <button type="submit" class="btn" name="submit">Add item</button>
+      
   	</div>
+     <div class="input-group">
+
+      <div class="foot"> <a href="index.php">Back</a> </div>
+
+    </div>
 </form>
 
 

@@ -13,7 +13,7 @@ if (isset($_POST['pay'])) {
   	
   	$_SESSION['success'] = "Success";
   	$_SESSION['addr'] = $addr;
-		$_SESSION['dtime'] = $dtime;
+	$_SESSION['dtime'] = $dtime;
   	
 
   	header('location: payment.php');
